@@ -1,0 +1,177 @@
+body{
+background-image: url(backgrounds/seigaiha/seigaiha.png); 
+/*how to change/set opacity of background image?*/
+}
+
+img{
+    /*max-width: how to make photo take up the entire top of the page?*/
+    text-align: center;
+}
+
+nav{
+    /* I want this to be within the blue background border in line with the logo. The words are also in reverse. I tried display flex and flex-direction/align/justify but no change. */
+}
+
+.interior1{
+    background: white;
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 30s;
+    animation-iteration-count: 1s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    -moz-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: both;
+    animation-play-state: infinite;
+    /* I got this from an animation generator, but it doesn't work the way I want. Essentially I want the images to fade in [and out] when the user clicks on another photo. Also, having them the photos overlapping/on top of each other. Here's the example site that I want to emulate: hoshina.com */
+}
+
+.interior2{
+    background: white;
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 60s;
+    animation-iteration-count: 1s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    -moz-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: both;
+    animation-play-state: infinite;
+}
+
+.interior3{
+    background: white;
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 90s;
+    animation-iteration-count: 1s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    -moz-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: both;
+    animation-play-state: infinite;
+}
+
+.interior4{
+    background: white;
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 120s;
+    animation-iteration-count: 1s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    -moz-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: both;
+    animation-play-state: infinite;
+}
+
+.sun{
+    float: left;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    color: #e2eec4;
+    background-color: #0700a7;
+}
+
+h2{
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #f7f7f7;
+}
+
+section{
+    background-color: #0700a7;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    /*display: inline-block;*/
+    display: flex;
+    float: right;
+    align-content: space-around;
+    align-content: space-between;
+    padding: 20px;
+}
+
+a {
+    /*display: inline-block;*/
+    display: flex;
+	color: rgba(rgb(159, 251, 200), green, blue, alpha);
+    text-decoration: none;
+}
+
+ul{
+    border: 2px solid #ed2727;
+    margin-top: 0px;
+    /*background-color: lightgrey;*/
+
+}
+
+.designs {
+
+    color: #000000;
+}
+
+.about{
+
+        color: #000000;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.list-designs{
+    border: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button{
+    /* How to designate this for just the button class and not all <a> tags? */
+    display: inline-block;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+a.button {
+    font-size: 20px;
+	background:#e2eec4;
+	border: 2px solid black;
+	color: white;
+
+}
+
+a:hover {
+	background: rgb(254, 51, 51);
+	border: 14px solid white;
+}
+    
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
